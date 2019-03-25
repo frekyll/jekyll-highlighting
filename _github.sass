@@ -1,163 +1,268 @@
 .highlight
   .hll
-    background-color: #ffc
+    background-color: rgb(255, 255, 204)
 
+  // Comment
   .c
-    color: #998
+    color: rgb(153, 153, 136)
     font-style: italic
 
+  // Error
   .err
-    background-color: #e3d2d2
-    color: #a61717
+    background-color: rgb(227, 210, 210)
+    color: rgb(166, 23, 23)
 
-  .k,
+  // Keyword
+  .k
+    color: rgb(0, 0, 0)
+    font-weight: bold
+
+  // Operator
   .o
-    color: #000
+    color: rgb(0, 0, 0)
     font-weight: bold
 
+  // Comment.Multiline
   .cm
-    color: #998
+    color: rgb(153, 153, 136)
     font-style: italic
 
+  // Comment.Preproc
   .cp
-    color: #999
+    color: rgb(153, 153, 153)
     font-style: italic
     font-weight: bold
 
+  // Comment.Single
   .c1
-    color: #998
+    color: rgb(153, 153, 136)
     font-style: italic
 
+  // Comment.Special
   .cs
-    color: #999
+    color: rgb(153, 153, 153)
     font-style: italic
     font-weight: bold
 
+  // Generic.Deleted
   .gd
-    background-color: #fdd
-    color: #000
+    background-color: rgb(255, 221, 221)
+    color: rgb(0, 0, 0)
 
+  // Generic.Emph
   .ge
-    color: #000
+    color: rgb(0, 0, 0)
     font-style: italic
 
+  // Generic.Error
   .gr
-    color: #a00
+    color: rgb(170, 0, 0)
 
+  // Generic.Heading
   .gh
-    color: #999
+    color: rgb(153, 153, 153)
 
+  // Generic.Inserted
   .gi
-    background-color: #dfd
-    color: #000
+    background-color: rgb(221, 255, 221)
+    color: rgb(0, 0, 0)
 
+  // Generic.Output
   .go
-    color: #888
+    color: rgb(136, 136, 136)
 
+  // Generic.Prompt
   .gp
-    color: #555
+    color: rgb(85, 85, 85)
 
+  // Generic.Strong
   .gs
     font-weight: bold
 
+  // Generic.Subheading
   .gu
-    color: #aaa
+    color: rgb(170, 170, 170)
 
+  // Generic.Traceback
   .gt
-    color: #a00
+    color: rgb(170, 0, 0)
 
-  .kc,
-  .kd,
-  .kn,
-  .kp,
+  // Keyword.Constant
+  .kc
+    color: rgb(0, 0, 0)
+    font-weight: bold
+
+  // Keyword.Declaration
+  .kd
+    color: rgb(0, 0, 0)
+    font-weight: bold
+
+  // Keyword.Namespace
+  .kn
+    color: rgb(0, 0, 0)
+    font-weight: bold
+
+  // Keyword.Pseudo
+  .kp
+    color: rgb(0, 0, 0)
+    font-weight: bold
+
+  // Keyword.Reserved
   .kr
-    color: #000
+    color: rgb(0, 0, 0)
     font-weight: bold
 
+  // Keyword.Type
   .kt
-    color: #458
+    color: rgb(68, 85, 136)
     font-weight: bold
 
+  // Literal.Number
   .m
-    color: #099
+    color: rgb(0, 153, 153)
 
+  // Literal.String
   .s
-    color: #d01040
+    color: rgb(208, 16, 64)
 
+  // Name.Attribute
   .na
-    color: #008080
+    color: rgb(0, 128, 128)
 
+  // Name.Builtin
   .nb
-    color: #08b
+    color: rgb(0, 134, 179)
 
+  // Name.Class
   .nc
-    color: #458
+    color: rgb(68, 85, 136)
     font-weight: bold
 
+  // Name.Constant
   .no
-    color: #008080
+    color: rgb(0, 128, 128)
 
+  // Name.Decorator
   .nd
-    color: #3c5d5d
+    color: rgb(60, 93, 93)
     font-weight: bold
 
+  // Name.Entity
   .ni
-    color: #800080
+    color: rgb(128, 0, 127)
 
-  .ne,
-  .nf,
+  // Name.Exception
+  .ne
+    color: rgb(153, 0, 0)
+    font-weight: bold
+
+  // Name.Function
+  .nf
+    color: rgb(153, 0, 0)
+    font-weight: bold
+
+  // Name.Label
   .nl
-    color: #900
+    color: rgb(153, 0, 0)
     font-weight: bold
 
+  // Name.Namespace
   .nn
-    color: #555
+    color: rgb(85, 85, 85)
 
+  // Name.Tag
   .nt
-    color: #000080
+    color: rgb(0, 0, 128)
 
+  // Name.Variable
   .nv
-    color: #008080
+    color: rgb(0, 128, 128)
 
+  // Operator.Word
   .ow
-    color: #000
+    color: rgb(0, 0, 0)
     font-weight: bold
 
+  // Text.Whitespace
   .w
-    color: #bbb
+    color: rgb(187, 187, 187)
 
-  .mf,
-  .mh,
-  .mi,
+  // Literal.Number.Float
+  .mf
+    color: rgb(0, 153, 153)
+
+  // Literal.Number.Hex
+  .mh
+    color: rgb(0, 153, 153)
+
+  // Literal.Number.Integer
+  .mi
+    color: rgb(0, 153, 153)
+
+  // Literal.Number.Oct
   .mo
-    color: #099
+    color: rgb(0, 153, 153)
 
-  .sb,
-  .sc,
-  .sd,
-  .s2,
-  .se,
-  .sh,
-  .si,
+  // Literal.String.Backtick
+  .sb
+    color: rgb(208, 16, 64)
+
+  // Literal.String.Char
+  .sc
+    color: rgb(208, 16, 64)
+
+  // Literal.String.Doc
+  .sd
+    color: rgb(208, 16, 64)
+
+  // Literal.String.Double
+  .s2
+    color: rgb(208, 16, 64)
+
+  // Literal.String.Escape
+  .se
+    color: rgb(208, 16, 64)
+
+  // Literal.String.Heredoc
+  .sh
+    color: rgb(208, 16, 64)
+
+  // Literal.String.Interpol
+  .si
+    color: rgb(208, 16, 64)
+
+  // Literal.String.Other
   .sx
-    color: #d01040
+    color: rgb(208, 16, 64)
 
+  // Literal.String.Regex
   .sr
-    color: #009926
+    color: rgb(0, 153, 38)
 
+  // Literal.String.Single
   .s1
-    color: #d01040
+    color: rgb(208, 16, 64)
 
+  // Literal.String.Symbol
   .ss
-    color: #990073
+    color: rgb(153, 0, 115)
 
+  // Name.Builtin.Pseudo
   .bp
-    color: #999
+    color: rgb(153, 153, 153)
 
-  .vc,
-  .vg,
+  // Name.Variable.Class
+  .vc
+    color: rgb(0, 128, 128)
+
+  // Name.Variable.Global
+  .vg
+    color: rgb(0, 128, 128)
+
+  // Name.Variable.Instance
   .vi
-    color: #008080
+    color: rgb(0, 128, 128)
 
+  // Literal.Number.Integer.Long
   .il
-    color: #099
+    color: rgb(0, 153, 153)

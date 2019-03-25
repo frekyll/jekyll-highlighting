@@ -1,24 +1,24 @@
 options:
   formatter: stylish
 files:
-  include: '**/*.s+(a|c)ss'
+  include: '*.sass'
 rules:
   # Extends
-  extends-before-mixins: 1
   extends-before-declarations: 1
+  extends-before-mixins: 1
   placeholder-in-extend: 1
 
   # Mixins
   mixins-before-declarations: 1
 
-  # Line Spacing
-  one-declaration-per-line: 1
+  # Line spacing
   empty-line-between-blocks: 1
+  one-declaration-per-line: 1
   single-line-per-selector: 1
 
   # Disallows
   no-attribute-selectors: 0
-  no-color-hex: 0
+  no-color-hex: 1
   no-color-keywords: 1
   no-color-literals: 0
   no-combinators: 0
@@ -50,7 +50,7 @@ rules:
   force-element-nesting: 1
   force-pseudo-nesting: 1
 
-  # Name Formats
+  # Name formats
   class-name-format: 1
   function-name-format: 1
   id-name-format: 0
@@ -58,19 +58,17 @@ rules:
   placeholder-name-format: 1
   variable-name-format: 1
 
-  # Style Guide
+  # Style guide
   attribute-quotes: 1
   bem-depth: 0
   border-zero: 1
   brace-style: 1
   clean-import-paths: 1
   empty-args: 1
-  hex-length: 1
-  hex-notation: 1
   indentation: 1
   leading-zero: 1
-  max-line-length: 0
   max-file-line-count: 0
+  max-line-length: 0
   nesting-depth: 1
   property-sort-order: 1
   pseudo-element: 1
@@ -80,16 +78,16 @@ rules:
   variable-for-property: 1
   zero-unit: 1
 
-  # Inner Spacing
-  space-after-comma: 1
-  space-before-colon: 1
-  space-after-colon: 1
-  space-before-brace: 1
-  space-before-bang: 1
+  # Inner spacing
   space-after-bang: 1
-  space-between-parens: 1
+  space-after-colon: 1
+  space-after-comma: 1
   space-around-operator: 1
+  space-before-bang: 1
+  space-before-brace: 1
+  space-before-colon: 1
+  space-between-parens: 1
 
-  # Final Items
-  trailing-semicolon: 1
+  # Final items
   final-newline: 1
+  trailing-semicolon: 1
